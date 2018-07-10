@@ -16,15 +16,7 @@ export default class AccordionWrapper extends PureComponent {
     const { closeAll } = this.state;
     return (
       <div className="accordion-wrapper">
-        <button
-          style={{
-            display: "flex",
-            marginBottom: "10px"
-          }}
-          onClick={this.closeAll}
-        >
-          Close All
-        </button>
+        <button onClick={this.closeAll}>Close All</button>
         {beers.map(beer => (
           <AccordionItem key={Math.random()} beer={beer} closeAll={closeAll} />
         ))}
