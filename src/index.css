@@ -1,44 +1,45 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
 
 button {
-    display: flex;
-    margin-bottom: 10px;
-    height: 30px;
-    background: none;
-    border-radius: 4px;
-    cursor: pointer;
+  display: flex;
+  outline: none;
+  margin-bottom: 10px;
+  height: 30px;
+  background: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .accordion-wrapper {
-    width: 50%;
-    margin: 0 auto;
+  width: 50%;
+  margin: 0 auto;
 }
 
 .accordion-wrapper p {
-    margin-top: 10px;
-    padding: 0 10px;
-    text-align: left;
+  margin-top: 10px;
+  padding: 0 10px;
+  text-align: left;
 }
 
 h3.accordion-title {
-    background-color: lightsteelblue;
-    padding: 10px 0 10px 10px;
-    color: white;
-    margin: 2px;
-    cursor: pointer;
-    border-radius: 3px;
+  background-color: lightsteelblue;
+  padding: 10px 0 10px 10px;
+  color: white;
+  margin: 2px;
+  cursor: pointer;
+  border-radius: 3px;
 }
 
 .accordion-title:hover,
 .accordion-title.active {
-    background-color: lightslategray;
+  background-color: lightslategray;
 }
 
 .accordion-panel {
-    display: flex;
-    margin-left: 20px;
+  display: flex;
+  margin-left: 20px;
 }
